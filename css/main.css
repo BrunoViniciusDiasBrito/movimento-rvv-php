@@ -1,0 +1,124 @@
+body, footer {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-size: 1.4em !important;
+  padding: 0px !important;
+  margin: 0px 0px !important;
+}
+
+p {
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+
+button {
+  border: none;
+}
+
+#app {
+  max-width: 100%;
+}
+
+.header-wrap {
+  max-width: 100%;
+  background-color: whitesmoke;
+}
+.header-wrap .header-content {
+  margin: 0px auto;
+  display: flex;
+  height: 70px;
+  box-sizing: border-box;
+  user-select: none;
+  justify-content: space-between;
+  max-width: 1380px;
+  position: relative;
+}
+.header-wrap .header-content .header-logo {
+  align-self: center;
+  flex-basis: calc(30% - 230px);
+  max-width: 230px;
+}
+.header-wrap .header-content .header-menu {
+  margin: 0px;
+  flex-basis: calc(70% - 10px);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+.header-wrap .header-content .header-menu li {
+  padding: 5px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.header-wrap .header-content .header-menu li:hover {
+  background-color: #c6c5c5;
+}
+.header-wrap .header-content .header-menu li span {
+  align-self: center;
+  color: black;
+  padding: 2px;
+}
+.header-wrap .header-content .header-mobile-wrap {
+  display: none;
+  flex-basis: 100%;
+  max-width: 1380px;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+}
+.header-wrap .header-content .header-mobile-wrap .menu-icon {
+  padding: 5px 10px;
+  background-color: #dfdede;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.header-wrap .header-content .header-mobile-wrap .header-mobile-menu {
+  background-color: whitesmoke;
+  width: 200px;
+  padding: 10px 10px;
+  display: none;
+}
+
+.main-wrap {
+  max-width: 1380px;
+  margin: 0px auto;
+  text-align: center;
+  height: 70vh;
+  display: flex;
+}
+.main-wrap .temporary {
+  align-self: center;
+  flex-basis: 100%;
+  color: red;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+footer p {
+  align-self: center;
+}
+
+/*# sourceMappingURL=main.css.map */
