@@ -1,7 +1,7 @@
 <?php include './components/header.php' ?>
 
-        <main class="main-wrap">
-
+        <main class="main-wrap">   
+            <div class="album py-5">
             <div class="container-fluid">
             <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
                     <div class="col-md-5 p-lg-5 mx-auto my-5">
@@ -13,8 +13,6 @@
                     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
                 </div>
             </div>
-            
-            <div class="album py-5">
                 <div class="container">                
                 <div class="row">
                     <div class="col-md-4">
