@@ -27,6 +27,7 @@
                 <!-- Menu mobile -->
                 <nav class="header-mobile-wrap">
                     <span class="menu-icon"><i class="fas fa-bars"></i></span>
+                    <!--
                     <ul class="header-mobile-menu">
                         <li><span>HOME</span></li>
                         <li><span>SOBRE NÓS</span></li>
@@ -34,6 +35,7 @@
                         <li><span>PRODUTOS</span></li>
                         <li><span>FALE CONOSCO</span></li>
                     </ul>
+                    -->
                 </nav>
             </nav>
         </header>

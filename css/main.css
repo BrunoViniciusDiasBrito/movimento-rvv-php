@@ -90,12 +90,6 @@ button {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 }
-.header-wrap .header-content .header-mobile-wrap .header-mobile-menu {
-  background-color: whitesmoke;
-  width: 200px;
-  padding: 10px 10px;
-  display: none;
-}
 
 .main-wrap {
   max-width: 1380px;

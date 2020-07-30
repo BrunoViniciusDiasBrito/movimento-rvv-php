@@ -15,7 +15,13 @@ $(document).ready(
         }
 
         icon_menu.on('click', function(){
-            mobile_nav_menu.toggle(500)
+            let confirma = window.confirm('Quer acessar ao menu mobile?')
+            if(confirma){
+                alert('Sem menu mobile por enquanto')
+            }else{
+                alert('Sem menu mobile por enquanto 2')
+            }
+            
         })
     }
 );
