@@ -10,12 +10,16 @@
         user-select: none;
         justify-content: space-between;
         max-width: 1380px;
-        position: relative;
+        position: relative;        
 
         .header-logo{
             align-self: center;
             flex-basis: calc(30% - 230px);
             max-width: 230px;
+
+            @media(max-width: 980px) {
+                display: none;
+            }
         }
 
         .header-menu{
@@ -24,6 +28,10 @@
             display: flex;
             justify-content: flex-end;
             padding-right: 50px;
+
+            @media(max-width: 980px) {
+                display: none;
+            }
 
             li{
                 padding: 5px;
@@ -52,6 +60,10 @@
             top: 25px;
             left: 20px;
 
+            @media(max-width: 980px) {
+                display: block;
+            }
+
             .menu-icon{
                 padding: 5px 10px;
                 background-color: #dfdede;
@@ -59,6 +71,8 @@
                 -webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
             }
+
+            
 
             // .header-mobile-menu{
             //     background-color: whitesmoke;

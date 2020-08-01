@@ -69,6 +69,31 @@
                     </div>
                 </div>
             </div>
+
+            <article class="optin">
+                    <div class="adjust">
+                        <h2>Receba notificações das nossas atividades :)</h2>
+                        <form action="" method="post">
+                                <label for="">Nome: </label><input type="text">
+                                <label for="">E-mail: </label><input type="email">
+                        </form>
+                    </div>
+            </article>
+
+            <article class="video_section py-5">
+                <div class="adjust_videos">
+                    <h2>NOSSO CANAL <span><i class="fab fa-youtube" style="color: red;"></i></span></h2> 
+                    <div class="video_gallery">
+                        <?php foreach($thumb as $thumbnail){?>
+                                <?php if(isset($thumbnail)){?>
+                                    <div class="videos">
+                                        <a href="<?php echo $thumbnail['link']?>"><?php echo $thumbnail['title'] ?></a>
+                                    </div>
+                                <?php }?>
+                        <?php }?>
+                    </div>
+                </div>
+            </article>
         </main>
 
 <?php include './components/footer.php' ?>

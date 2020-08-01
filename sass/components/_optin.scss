@@ -1,0 +1,57 @@
+.optin{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: #e7e6e6;
+    
+    .adjust{
+        max-width: 1380px;
+        display: flex;
+        flex-wrap: wrap;
+        @media(max-width: 718px) {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        h2{
+            flex-basis: 100%;
+            text-align: center;            
+        }
+    
+        form{
+            max-width: 1380px;
+            margin-top: 15px;
+            flex-basis: 100%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            @media(max-width: 718px) {
+                text-align: left;
+            }
+
+            input[type="text"], [type="email"]{
+                padding: 5px;
+                width: 350px;
+                border: none;
+                max-width: 300px;
+                border-radius: 4px;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+
+                @media(max-width: 718px) {
+                    flex-basis: 100%;
+                    max-width: 100%;
+                }
+            }
+
+            label{
+                margin: 0px 5px;
+                @media(max-width: 718px) {
+                    flex-basis: 100%;
+                }
+            }
+        }
+    }
+}
