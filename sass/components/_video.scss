@@ -1,7 +1,9 @@
 .video_section{
         
     .adjust_videos{
-        max-width: 100%;
+        
+        margin: 0px auto;
+        max-width: 1380px;
         padding: 0px 20px;
         text-align: center;
         display: flex;
@@ -12,29 +14,34 @@
         }
 
         .video_gallery{
-            margin: 0px auto;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
             margin-top: 30px;
+            padding: 0px 50px;
+
+            @media(max-width: 717px){
+                padding: 0px;
+            }
 
             .videos{
-                flex-basis: 48%; 
-                width: 350px;   
+                flex-basis: 48%;  
                 background-color: grey;      
                 padding: 10px;  
-                margin-bottom: 2%; 
-                
-                a{
-                    color: white;
+                margin-bottom: 2%;  
+                max-height: 350px;
+                height: 350px;
 
-                    &:hover{
-                        color: #cecece;
-                    }
+                @media(max-width: 1024px){
+                    height: 300px;
                 }
 
-                @media(max-width: 717px){
+                @media(max-width: 780px){
                     flex-basis: 100%;
+                }
+
+                @media(max-width: 450px){
+                    height: 200px;
                 }
             }
         }

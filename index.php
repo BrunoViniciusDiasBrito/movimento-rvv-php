@@ -4,30 +4,31 @@
         $thumb = array(
             array(
                 "title"=>"Basta Acreditar",
-                "link"=>"https://www.youtube.com/movimentoreviva"
+                "link"=>"https://www.youtube.com/embed/F4c7cfLXH7I"
             ),
             array(
                 "title"=>"Outro Rumo",
-                "link"=>"https://www.youtube.com/movimentoreviva"
+                "link"=>"https://www.youtube.com/embed/7pBdYOkT9DI"
             ),
             array(
                 "title"=>"Inteiramente Teu",
-                "link"=>"https://www.youtube.com/movimentoreviva"
+                "link"=>"https://www.youtube.com/embed/mXJVGNaewuQ"
             ),
             array(
                 "title"=>"Deus é Top",
-                "link"=>"https://www.youtube.com/movimentoreviva"
+                "link"=>"https://www.youtube.com/embed/rhVAX4Z75CQ"
             ),
             array(
-                "title"=>"Ilumina",
-                "link"=>"https://www.youtube.com/movimentoreviva"
+                "title"=>"Me Amas",
+                "link"=>"https://www.youtube.com/embed/ItZS9jdXpz4"
             ),
             array(
-                "title"=>"Deixa",
-                "link"=>"https://www.youtube.com/movimentoreviva"
+                "title"=>"Eu quero ficar",
+                "link"=>"https://www.youtube.com/embed/k4-ePThZNmM"
             )
         )
         ?>
+        
 
         <main class="main-wrap">   
             <div class="album py-5">
@@ -80,15 +81,15 @@
                     </div>
             </article>
 
+            <p><?php print_r($GLOBAL_POST) ?></p>
+
             <article class="video_section py-5">
                 <div class="adjust_videos">
                     <h2>NOSSO CANAL <span><i class="fab fa-youtube" style="color: red;"></i></span></h2> 
                     <div class="video_gallery">
                         <?php foreach($thumb as $thumbnail){?>
                                 <?php if(isset($thumbnail)){?>
-                                    <div class="videos">
-                                        <a href="<?php echo $thumbnail['link']?>"><?php echo $thumbnail['title'] ?></a>
-                                    </div>
+                                    <iframe class="videos" src="<?php echo $thumbnail['link'] ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <?php }?>
                         <?php }?>
                     </div>
