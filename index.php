@@ -78,7 +78,7 @@
                                 <label for="">Nome: </label><input type="text">
                                 <label for="">E-mail: </label><input type="email">
 
-                                <button class="btn btn-primary" type="submit">Enviar</button>
+                                <button class="btn btn-primary m-1" type="submit">Enviar</button>
                         </form>
                     </div>
             </article>
