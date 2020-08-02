@@ -77,11 +77,11 @@
                         <form action="" method="post">
                                 <label for="">Nome: </label><input type="text">
                                 <label for="">E-mail: </label><input type="email">
+
+                                <button class="btn btn-primary" type="submit">Enviar</button>
                         </form>
                     </div>
             </article>
-
-            <p><?php print_r($GLOBAL_POST) ?></p>
 
             <article class="video_section py-5">
                 <div class="adjust_videos">
