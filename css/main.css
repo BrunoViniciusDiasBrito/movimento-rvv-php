@@ -163,7 +163,7 @@ button {
 }
 .optin .adjust form label {
   margin: 0px 5px;
-  margin-top: 3px;
+  margin-top: 10px;
 }
 @media (max-width: 718px) {
   .optin .adjust form label {
@@ -196,7 +196,7 @@ button {
 }
 .video_section .adjust_videos .video_gallery .videos {
   flex-basis: 48%;
-  background-color: grey;
+  background-color: #cecece;
   padding: 10px;
   margin-bottom: 2%;
   max-height: 350px;
