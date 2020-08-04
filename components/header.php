@@ -11,10 +11,10 @@
 </head>
 <body>
     <div id="app">
-        <header class="header-wrap">
+        <header class="header-wrap" id="header">
             <nav class="header-content">
                 <!-- Logo -->
-                <img src="./image/logo.png" class="header-logo">
+                <img src="./image/rvv-logo-removebg-preview.png" class="header-logo">
                 <ul class="header-menu">
                     <li><span>HOME</span></li>
                     <li><span>SOBRE NÓS</span></li>

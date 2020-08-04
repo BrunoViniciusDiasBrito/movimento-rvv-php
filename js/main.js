@@ -12,5 +12,24 @@ $(document).ready(
             }
             
         })
+        
     }
 );
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {stickyHeader()};
+
+// Get the header
+let header = document.getElementById("header");
+let main = document.querySelector(".main-wrap")
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyHeader(){ 
+  if(window.pageYOffset > 70){
+    header.classList.add("sticky");
+    main.style.marginTop = "70px"
+  }else{
+    header.classList.remove("sticky")
+    main.style.marginTop = "0px"
+  }
+}

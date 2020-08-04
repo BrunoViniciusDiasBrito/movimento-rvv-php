@@ -1,9 +1,6 @@
 <?php include './components/header.php' ?>
-
         <?php include './components/variables/variables.php' ?>
-        
-
-        <main class="main-wrap">   
+        <main class="main-wrap" id="main">   
             <div class="album py-5">
                 <div class="container-fluid">
                 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
@@ -43,18 +40,25 @@
                     </div>
                 </div>
             </div>
-
+            
+            <?php 
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    $alert = $_POST['name'];
+                }
+            ?>
             <article class="optin">
                     <div class="adjust">
                         <h2>Receba notificações das nossas atividades :)</h2>
                         <form action="" method="post">
-                                <label for="">Nome: </label><input type="text">
-                                <label for="">E-mail: </label><input type="email">
+                                <label for="">Nome: </label><input type="text" name="name">
+                                <label for="">E-mail: </label><input type="email" name="email">
 
                                 <button class="btn btn-primary m-1" type="submit">Enviar</button>
                         </form>
                     </div>
             </article>
+
+           
 
             <article class="video_section py-5">
                 <div class="adjust_videos">
