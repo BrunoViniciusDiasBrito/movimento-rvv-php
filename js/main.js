@@ -13,7 +13,13 @@ $(document).ready(
             
         })
         
+        //carousel
+        $('.carousel').carousel({
+          interval: 5000,
+          touch: true
+        });
     }
+    
 );
 
 // When the user scrolls the page, execute myFunction

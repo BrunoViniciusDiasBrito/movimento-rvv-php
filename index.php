@@ -1,23 +1,30 @@
 <?php include './components/header.php' ?>
         <?php include './components/variables/variables.php' ?>
-        <div class="container-fluid">
-            <div class="row">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        
+        <main class="main-wrap" id="main">   
+
+            <div class="pb-4 my-carousel">
+                
+                <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleSlidesOnly" data-slide-to="2"></li>
+                    </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./image/rvv-5anos.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./image/rvv-queremos-mais.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
+                            <img src="./image/rvv-queremos-mais-2.jpg" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <main class="main-wrap" id="main">   
+                
+            </div>           
                         
             <article class="optin">
                     <div class="adjust">
