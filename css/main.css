@@ -121,6 +121,11 @@ button {
 .my-carousel img {
   height: 500px;
 }
+@media (max-width: 991px) {
+  .my-carousel img {
+    height: auto;
+  }
+}
 
 .optin {
   display: flex;
