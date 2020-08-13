@@ -1,7 +1,7 @@
 .header-wrap{
     width: 100%;
     background-color: #ffffff;
-    z-index: 2;    
+    z-index: 99;    
 
     .header-content{
         margin: 0px auto;
@@ -29,7 +29,6 @@
             flex-basis: calc(70% - 10px);
             display: flex;
             justify-content: flex-end;
-            padding-right: 50px;
 
             @media(max-width: 980px) {
                 display: none;
@@ -47,8 +46,7 @@
                 }
 
                 span{
-                    align-self: center;   
-                    color: black;  
+                    align-self: center; 
                     padding: 2px;
                 }
             }
@@ -68,7 +66,6 @@
 
             .menu-icon{
                 padding: 5px 10px;
-                background-color: #dfdede;
                 border-radius: 5px;
                 -webkit-border-radius: 5px;
                 -moz-border-radius: 5px;
@@ -90,5 +87,6 @@
 .sticky{
     position: fixed;
     top: 0px;
-    background-color: #ECE9E6;
+    background-color: $header_color_fixed;
+    color: white;
 }

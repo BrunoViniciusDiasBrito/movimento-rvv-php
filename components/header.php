@@ -21,7 +21,6 @@
                     <li><span>VIDEOS</span></li>
                     <li><span>PRODUTOS</span></li>
                     <li><span>FALE CONOSCO</span></li>
-                    <li><span><i class="fas fa-user"></i></span></li>
                 </ul>
 
                 <!-- Menu mobile -->

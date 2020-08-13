@@ -29,7 +29,7 @@
             <div class="container py-5">
                 <div class="row">
                     <div class="col-12">
-                        <h1>Um pouco sobre nós</h1>
+                        <h1 class="text-laranja">Um pouco sobre nós</h1>
                         <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non diam in arcu feugiat euismod a eget est. Quisque aliquet, nisl id sollicitudin porta, libero arcu suscipit dui, sit amet vestibulum dolor turpis quis odio. Sed tristique vel sapien vitae malesuada. Morbi eu dui magna. Proin sit amet ligula a ante eleifend faucibus quis et velit. In cursus sodales justo at efficitur. Mauris maximus posuere nulla, in mollis nibh imperdiet et. Fusce a ex purus.
 

@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 20px 0px;
-    background-color: #ECE9E6;
+    background-color: $optin_color;
+    color: white;
     
     .adjust{
         max-width: 1380px;
