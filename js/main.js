@@ -46,5 +46,14 @@ function stickyHeader(){
     main.style.marginTop = "0px"
     menu.style.paddingRight = '50px';
     logo.style.display = 'block';
+
+    if(window.innerWidth < 980){
+      logo.style.position = 'absolute';
+      logo.style.left = 'calc(50% - 40px)';      
+    }
+    else{      
+      logo.style.position = 'relative';
+      logo.style.left = '20px'
+    }
   }
 }

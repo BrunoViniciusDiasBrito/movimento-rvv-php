@@ -44,11 +44,20 @@
             <article class="optin">
                     <div class="adjust">
                         <h2>Receba notificações das nossas atividades :)</h2>
-                        <form action="" method="post">
-                                <label for="">Nome: </label><input type="text" name="name">
-                                <label for="">E-mail: </label><input type="email" name="email">
-
-                                <button class="btn btn-primary m-1" type="submit">Enviar</button>
+                        <form>
+                            <div class="form-group row">
+                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control bg-white" id="staticEmail" value="email@example.com">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-dark">Enviar</button>
                         </form>
                     </div>
             </article>

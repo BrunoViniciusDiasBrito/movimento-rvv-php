@@ -149,41 +149,8 @@ button {
 }
 .optin .adjust form {
   max-width: 1380px;
-  margin-top: 15px;
   flex-basis: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-@media (max-width: 718px) {
-  .optin .adjust form {
-    text-align: left;
-  }
-}
-.optin .adjust form input[type=text], .optin .adjust form [type=email] {
-  padding: 5px;
-  width: 350px;
-  border: none;
-  max-width: 300px;
-  border-radius: 4px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-}
-@media (max-width: 718px) {
-  .optin .adjust form input[type=text], .optin .adjust form [type=email] {
-    flex-basis: 100%;
-    max-width: 100%;
-  }
-}
-.optin .adjust form label {
-  margin: 0px 5px;
-  margin-top: 10px;
-}
-@media (max-width: 718px) {
-  .optin .adjust form label {
-    flex-basis: 100%;
-  }
+  margin-top: 15px;
 }
 
 .video_section .adjust_videos {
@@ -230,6 +197,42 @@ button {
 @media (max-width: 450px) {
   .video_section .adjust_videos .video_gallery .videos {
     height: 200px;
+  }
+}
+
+.footer {
+  background-color: #0f0f0f;
+  color: #ECE9E6;
+}
+.footer .contact span i {
+  font-size: 1.4em;
+}
+.footer .contact span a {
+  list-style: none;
+  color: #ECE9E6;
+  padding: 5px;
+}
+.footer .contact span .insta {
+  color: rgba(238, 98, 122, 0.857);
+}
+.footer .contact span .face {
+  color: #020e89;
+}
+.footer .contact span .yt {
+  color: #bd1818;
+}
+@media (max-width: 766px) {
+  .footer .contact {
+    text-align: center;
+  }
+}
+.footer .midias {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 766px) {
+  .footer .mensagem {
+    margin-top: 1rem;
   }
 }
 

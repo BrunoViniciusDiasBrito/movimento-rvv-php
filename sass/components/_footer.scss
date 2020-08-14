@@ -1,0 +1,48 @@
+.footer{
+    background-color: $footer_color;
+    color: #ECE9E6;
+
+    .contact{
+
+        span{
+
+            i{
+                font-size: 1.4em;
+            }
+
+            a{
+                list-style: none;
+                color: #ECE9E6;
+                padding: 5px;
+            }
+
+            .insta{
+                color: rgba(238, 98, 122, 0.857);
+            }
+
+            .face{
+                color: rgb(2, 14, 137);
+            }
+
+            .yt{
+                color: rgb(189, 24, 24);
+            }
+        }
+
+        @media(max-width: 766px){
+            text-align: center;
+        }
+    }
+
+    .midias{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mensagem{
+        @media(max-width: 766px){
+            margin-top: 1rem;
+        }
+    }
+}
+
