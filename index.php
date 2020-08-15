@@ -41,23 +41,23 @@
                 </div>
             </div>
 
-            <article class="optin">
+            <article id="optin_app" class="optin">
                     <div class="adjust">
                         <h2>Receba notificações das nossas atividades :)</h2>
                         <form>
                             <div class="form-group row">
                                 <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
                                 <div class="col-sm-10">
-                                    <input type="email" class="form-control bg-white" id="staticEmail" value="email@example.com">
+                                    <input type="email" class="form-control bg-white" id="staticEmail" placeholder="email@example.com" v-model="email">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                <label for="inputPassword" class="col-sm-2 col-form-label">Nome</label>
                                 <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                                    <input type="text" class="form-control" id="inputPassword" placeholder="Nome" v-model="nome">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-dark">Enviar</button>
+                            <button type="submit" class="btn btn-dark" @click.prevent="enviar">Enviar</button>
                         </form>
                     </div>
             </article>

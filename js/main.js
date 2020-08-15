@@ -1,3 +1,5 @@
+//jquery
+
 $(document).ready(
     function(){
         
@@ -21,6 +23,8 @@ $(document).ready(
     }
     
 );
+
+//Vanila JS
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickyHeader()};
@@ -57,3 +61,25 @@ function stickyHeader(){
     }
   }
 }
+
+//VUE js
+let vm = new Vue({
+    data(){
+      return{
+        nome: '',
+        email: ''
+      }
+    },
+    methods: {
+      enviar(){
+        if(this.email != '' && this.nome != ''){
+          localStorage.setItem('nome', this.nome)
+          localStorage.setItem('email', this.email)
+        }else{
+          alert('Por favor, preencha todos os dados')
+        }
+      }
+    }
+  })
+
+  vm.$mount('#optin_app')
