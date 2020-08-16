@@ -1,4 +1,6 @@
-//jquery
+/*
+        jquery 
+*/
 
 $(document).ready(
     function(){
@@ -18,7 +20,9 @@ $(document).ready(
     
 );
 
-//Vanila JS
+/* 
+      Vanila JS 
+*/
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {stickyHeader()};
@@ -56,7 +60,9 @@ function stickyHeader(){
   }
 }
 
-//VUE js
+/*
+      Vue Js 
+*/
 let vm = new Vue({
     data(){
       return{
@@ -70,7 +76,7 @@ let vm = new Vue({
           localStorage.setItem('nome', this.nome)
           localStorage.setItem('email', this.email)
         }else{
-          alert('Por favor, preencha todos os dados')
+          swal('Por favor, preencha todos os dados')
         }
       }
     }
