@@ -8,7 +8,7 @@ $(document).ready(
         const icon_menu = $('.menu-icon')        
         
         icon_menu.on('click', function(){            
-            swal('Sem menu mobile por enquanto')            
+            swal('Movimento Reviva','Sem menu mobile por enquanto')            
         })
         
         //carousel
@@ -76,7 +76,7 @@ let vm = new Vue({
           localStorage.setItem('nome', this.nome)
           localStorage.setItem('email', this.email)
         }else{
-          swal('Por favor, preencha todos os dados')
+          swal('Movimento Reviva','Por favor, preencha todos os dados')
         }
       }
     }
