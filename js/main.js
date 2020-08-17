@@ -4,18 +4,29 @@
 
 $(document).ready(
     function(){
-        
-        const icon_menu = $('.menu-icon')        
-        
-        icon_menu.on('click', function(){            
-            swal('Movimento Reviva','Sem menu mobile por enquanto')            
-        })
-        
-        //carousel
-        $('.carousel').carousel({
-          interval: 5000,
-          touch: true
-        });
+
+      //menu
+      $('.header-menu').find('li').on('click', function(){
+        swal('Movimento Reviva','Menu Desktop em andamento...', { button: false, timer: 3000, }) 
+        if($(this).attr('class') == 'loja'){
+          swal('Movimento Reviva','A loja está em construção...', { button: false, timer: 3000, icon: 'info' })
+        }else{
+          swal('Movimento Reviva','Menu Desktop em andamento...', { button: false, timer: 3000, })
+        }
+      })
+      
+      //menu mobile
+      const icon_menu = $('.menu-icon')        
+      
+      icon_menu.on('click', function(){            
+          swal('Movimento Reviva','Menu Mobile em andamento...', { button: false, timer: 3000,})            
+      })
+      
+      //carousel
+      $('.carousel').carousel({
+        interval: 5000,
+        touch: true
+      });
     }
     
 );

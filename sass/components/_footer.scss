@@ -2,12 +2,18 @@
     background-color: $footer_color;
     color: #ECE9E6;
 
+    .container{
+        h1{
+            border-bottom: 1px solid white;
+        }
+    }
+
     .contact{
 
         span{
 
             i{
-                font-size: 1.4em;
+                font-size: 1em;
             }
 
             a{

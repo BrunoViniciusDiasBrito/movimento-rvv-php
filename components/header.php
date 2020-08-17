@@ -19,7 +19,7 @@
                     <li><span>HOME</span></li>
                     <li><span>SOBRE NÓS</span></li>
                     <li><span>VIDEOS</span></li>
-                    <li><span>PRODUTOS</span></li>
+                    <li class="loja"><span>PRODUTOS</span></li>
                     <li><span>FALE CONOSCO</span></li>
                 </ul>
 
