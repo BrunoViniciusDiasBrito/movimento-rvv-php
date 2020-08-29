@@ -29,6 +29,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>       
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166834089-2"></script>
+    <script src="js/seo/anlytics.js"></script>
 </body>
 </html>
