@@ -3,7 +3,7 @@
         
         <?php
             //Validando a existencia das páginas e exibindo-a na tela dinamicamente
-            
+
             $getApp = filter_input(INPUT_GET, 'app', FILTER_SANITIZE_STRIPPED);
 
             if(empty($getApp)){
@@ -13,7 +13,7 @@
             }else{
                 echo '
                 <div class="container">
-                    <p class="py-5 justify-content-center align-items-center text-red">
+                    <p class="py-5 text-center align-items-center text-red">
                         App não encontrado!
                     </p>
                 </div>';
