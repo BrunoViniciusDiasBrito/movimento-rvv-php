@@ -207,6 +207,9 @@ button {
 .footer .container h1 {
   border-bottom: 1px solid white;
 }
+.footer .container p {
+  cursor: pointer;
+}
 .footer .contact span i {
   font-size: 1em;
 }
