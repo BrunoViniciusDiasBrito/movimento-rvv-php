@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
 </head>
 <body>
     <div id="app">

@@ -1,4 +1,6 @@
 
+        <div class="container" style="width: 100%; height: 480px" id="mapContainer"></div>
+        <hr>
         <footer class="footer pt-5 pb-3">
             <div class="container">
                 <div class="row d-flex justify-content-center">
@@ -31,5 +33,33 @@
     <script src="js/main.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166834089-2"></script>
     <script src="js/seo/anlytics.js"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+        
+
+
+    <script>
+      // Initialize the platform object:
+      var platform = new H.service.Platform({
+        'apikey': 'AqCicd0vgaQUh_wyjS5bRtEjrkCwW1l4wJeg1-b36qE'
+      });
+
+      // Obtain the default map types from the platform object
+      var defaultLayers  = platform.createDefaultLayers();
+
+      // Instantiate (and display) a map object:
+      var map = new H.Map(
+        document.getElementById('mapContainer'),
+        defaultLayers .vector.normal.map,
+        {
+          zoom: 10,
+          center: { lng: 13.4, lat: 52.51 }
+        });
+
+        var ui = H.ui.UI.createDefault(map, defaultLayers, 'pt-BR');
+    </script>
+
+
 </body>
 </html>

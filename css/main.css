@@ -79,7 +79,8 @@ button {
   cursor: pointer;
 }
 .header-wrap .header-content .header-menu li:hover {
-  background-color: #c6c5c5;
+  background-color: black !important;
+  color: white;
 }
 .header-wrap .header-content .header-menu li span {
   align-self: center;
