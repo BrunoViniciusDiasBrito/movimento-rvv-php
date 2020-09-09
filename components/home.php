@@ -39,23 +39,15 @@
             </div>
 
             <article id="optin_app" class="optin">
-                    <div class="adjust">
-                        <h2>Receba notificações das nossas atividades :)</h2>
-                        <form>
-                            <div class="form-group row">
-                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control bg-white" id="staticEmail" placeholder="email@example.com" v-model="email">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label for="inputPassword" class="col-sm-2 col-form-label">Nome</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputPassword" placeholder="Nome" v-model="nome">
-                                </div>
-                            </div>
-                            <button type="submit" class="btn btn-dark" @click.prevent="enviar">Enviar</button>
-                        </form>
+                    <div class="container">
+                        <div class="row optin_app_adj mx-auto">
+                            <h1>Receba notificações das nossas atividades :)</h1>
+                            <form action="" class="">
+                                <input type="text" class='form-control' placeholder="Seu nome" v-model="nome" size="50">
+                                <input type="email" class='form-control' placeholder="Seu e-mail" v-model="email" size="50">
+                                <button class="btn btn-dark" @click.prevent="enviar">Enviar</button>
+                            </form>
+                        </div>
                     </div>
             </article>
 

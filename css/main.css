@@ -133,25 +133,25 @@ button {
   background-color: #2f2f2f;
   color: white;
 }
-.optin .adjust {
-  max-width: 1380px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
+.optin .optin_app_adj {
+  max-width: 600px;
 }
-@media (max-width: 718px) {
-  .optin .adjust {
-    padding: 0px 20px;
-  }
-}
-.optin .adjust h2 {
-  flex-basis: 100%;
+.optin .optin_app_adj h1 {
   text-align: center;
+  display: block;
+  font-size: 1.8em !important;
+  margin: 0 auto !important;
+  margin-bottom: 20px !important;
 }
-.optin .adjust form {
-  max-width: 1380px;
-  flex-basis: 100%;
-  margin-top: 15px;
+.optin .optin_app_adj form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.optin .optin_app_adj form input {
+  margin-bottom: 10px;
+}
+.optin .optin_app_adj form button {
+  width: 100%;
 }
 
 .video_section .adjust_videos {

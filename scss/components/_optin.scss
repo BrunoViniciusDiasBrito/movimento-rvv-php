@@ -5,24 +5,30 @@
     background-color: $optin_color;
     color: white;
     
-    .adjust{
-        max-width: 1380px;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 20px;
-        @media(max-width: 718px) {
-            padding: 0px 20px;
+    .optin_app_adj{
+        max-width: 600px;
+
+        h1{
+            text-align: center;
+            display: block;
+            font-size: 1.8em !important;
+            margin: 0 auto !important;
+            margin-bottom: 20px !important;
         }
 
-        h2{
-            flex-basis: 100%;
-            text-align: center;            
-        }
-    
         form{
-            max-width: 1380px;
-            flex-basis: 100%;
-            margin-top: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+
+            input{
+                margin-bottom: 10px;
+            }
+
+            button{
+                width: 100%;
+            }
         }
     }
+    
+    
 }

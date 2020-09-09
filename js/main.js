@@ -86,6 +86,7 @@ let vm = new Vue({
         if(this.email != '' && this.nome != ''){
           localStorage.setItem('nome', this.nome)
           localStorage.setItem('email', this.email)
+          swal('Seu e-mail foi enviado')
         }else{
           swal('Movimento Reviva','Por favor, preencha todos os dados')
         }
