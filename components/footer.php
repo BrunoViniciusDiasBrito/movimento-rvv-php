@@ -30,6 +30,9 @@
     <script src="js/main.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166834089-2"></script>
     <script src="js/seo/anlytics.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
 
 </body>
 </html>

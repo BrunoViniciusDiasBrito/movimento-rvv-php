@@ -42,10 +42,10 @@
                     <div class="container">
                         <div class="row optin_app_adj mx-auto">
                             <h1>Receba notificações das nossas atividades :)</h1>
-                            <form action="" class="">
-                                <input type="text" class='form-control' placeholder="Seu nome" v-model="nome" size="50">
-                                <input type="email" class='form-control' placeholder="Seu e-mail" v-model="email" size="50">
-                                <button class="btn btn-dark" @click.prevent="enviar">Enviar</button>
+                            <form action="" class="" @submit.prevent="sendEmail">
+                                <input type="text" class='form-control' placeholder="Seu nome" v-model="nome" size="50" name="name">
+                                <input type="email" class='form-control' placeholder="Seu e-mail" v-model="email" size="50" name="email">
+                                <button class="btn btn-dark" @click="">Enviar</button>
                             </form>
                         </div>
                     </div>

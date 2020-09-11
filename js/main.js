@@ -82,14 +82,21 @@ let vm = new Vue({
       }
     },
     methods: {
-      enviar(){
-        if(this.email != '' && this.nome != ''){
-          localStorage.setItem('nome', this.nome)
-          localStorage.setItem('email', this.email)
-          swal('Seu e-mail foi enviado')
-        }else{
-          swal('Movimento Reviva','Por favor, preencha todos os dados')
-        }
+      sendEmail: (e) => {
+        emailjs.sendForm('Bruno Brito', 'template_6ubhije', e.target, 'user_SCP46pzTkY6HkjhaqrNmY')
+          .then((result) => {
+            if(this.email != '' && this.nome != ''){
+              console.log(result.status)
+              swal({
+                icon:'success',
+                title: 'Movimento Reviva',
+                text: 'Seus dados foram enviados com sucesso!'
+              })}else{
+                swal('warn','Movimento Reviva','Por favor, preencha todos os dados')
+              }
+          }, (error) => {
+              console.log('FAILED...', error);
+        });
       }
     }
   })
