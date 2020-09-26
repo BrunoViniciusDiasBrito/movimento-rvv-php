@@ -22,6 +22,7 @@
                     <li><span>VIDEOS</span></li>
                     <li class="loja"><span>PRODUTOS</span></li>
                     <li><span>FALE CONOSCO</span></li>
+                    <li class="natal"><span>Natal</span></li>
                 </ul>
 
                 <!-- Menu mobile -->

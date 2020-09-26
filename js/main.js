@@ -10,6 +10,8 @@ $(document).ready(
         swal('Movimento Reviva','Menu Desktop em andamento...', { button: false, timer: 3000, }) 
         if($(this).attr('class') == 'loja'){
           swal('Movimento Reviva','A loja está em construção...', { button: false, timer: 3000, icon: 'info' })
+        }else if($(this).attr('class') == 'natal'){
+          document.location = '/natal.php'
         }else{
           swal('Movimento Reviva','Menu Desktop em andamento...', { button: false, timer: 3000, })
         }
