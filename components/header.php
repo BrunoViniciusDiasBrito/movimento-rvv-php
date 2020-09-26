@@ -37,6 +37,7 @@
                         <li><span>FALE CONOSCO</span></li>
                     </ul>
                     -->
+                    <span class="natal-bell natal"><i class="fas fa-bell"></i></span>
                 </nav>
             </nav>
         </header>

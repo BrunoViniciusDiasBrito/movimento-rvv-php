@@ -99,7 +99,7 @@ button {
   max-width: 1380px;
   position: absolute;
   top: 25px;
-  left: 20px;
+  position: relative;
 }
 @media (max-width: 980px) {
   .header-wrap .header-content .header-mobile-wrap {
@@ -111,6 +111,17 @@ button {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
+  margin-left: 20px;
+}
+.header-wrap .header-content .header-mobile-wrap .natal-bell {
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  position: absolute;
+  color: red;
+  cursor: pointer;
+  right: 20px;
 }
 
 .sticky {

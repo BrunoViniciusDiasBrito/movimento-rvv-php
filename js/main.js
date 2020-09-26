@@ -18,11 +18,17 @@ $(document).ready(
       })
       
       //menu mobile
-      const icon_menu = $('.menu-icon')        
+      const icon_menu = $('.menu-icon')
+      const natal_icon = $('.natal-bell')
       
       icon_menu.on('click', function(){            
           swal('Movimento Reviva','Menu Mobile em andamento...', { button: false, timer: 3000,})            
       })
+
+      natal_icon.on('click', function(){
+        document.location = '/natal.php'
+      })
+
       
       //carousel
       $('.carousel').carousel({
