@@ -18,11 +18,11 @@
                 <img src="./image/rvv-logo-removebg-preview.png" class="header-logo">
                 <ul class="header-menu">
                     <li><span>HOME</span></li>
+                    <li class="natal"><span>NATAL</span></li>
                     <li><span>SOBRE NÓS</span></li>
                     <li><span>VIDEOS</span></li>
                     <li class="loja"><span>PRODUTOS</span></li>
                     <li><span>FALE CONOSCO</span></li>
-                    <li class="natal"><span>Natal</span></li>
                 </ul>
 
                 <!-- Menu mobile -->
