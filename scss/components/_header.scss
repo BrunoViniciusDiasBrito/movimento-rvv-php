@@ -39,16 +39,25 @@
                 margin-right: 10px;
                 display: flex;
                 justify-content: center;
-                cursor: pointer;                
+                cursor: pointer;
 
                 &:hover{
                     background-color: rgb(0, 0, 0) !important; 
-                    color: white;                   
+                    color: white;
                 }
 
                 span{
                     align-self: center; 
                     padding: 2px;
+                }
+            }
+
+            .natal{
+                color: red;
+
+                &:hover{
+                    background-color: rgb(177, 53, 53) !important; 
+                    color: white;
                 }
             }
         }

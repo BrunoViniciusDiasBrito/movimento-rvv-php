@@ -86,6 +86,13 @@ button {
   align-self: center;
   padding: 2px;
 }
+.header-wrap .header-content .header-menu .natal {
+  color: red;
+}
+.header-wrap .header-content .header-menu .natal:hover {
+  background-color: #b13535 !important;
+  color: white;
+}
 .header-wrap .header-content .header-mobile-wrap {
   display: none;
   flex-basis: 100%;
