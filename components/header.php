@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movimento Reviva</title>
 
+    <link rel="icon" type="image/png" href="./image/rvv-logo-removebg-preview.png" width="32" height="32"/>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
