@@ -74,7 +74,6 @@ function stickyHeader(){
     }
     else{      
       logo.style.position = 'relative';
-      logo.style.left = '20px'
     }
   }
 }
