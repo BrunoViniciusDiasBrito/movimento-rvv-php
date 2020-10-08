@@ -12,9 +12,3 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
 </IfModule>
 
-# Redireciona domínio com o www para endereço sem o www
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www.meusite.com [NC]
-RewriteRule ^(.*)$ http://meusite.com/$1 [L,R=301]
-</IfModule>
